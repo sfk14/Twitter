@@ -16,6 +16,45 @@ from twython import Twython
 from time import sleep
 import sys
 
+
+# Takes a python dictionary object returned from Twitter and converts it into XML.
+# Returns XML string. 
+def tweetDict2Xml(tweetDict):
+
+	# encapulating tag
+	string = "<tweet>"
+
+	# go through each dictionary pairing, create a tag for the key value, and make the corresponding value that tag's content
+	for y in tweetDict:
+
+		# some keys point to dictionaries, so in those cases we have to do it again
+		if y == "user" or y == "entities":
+			string += "<"+y+">"
+			for x in tweetDict[y]:
+				# clean string
+				s = str(tweetDict[y][x])
+				s = s.replace("&", "&amp;")
+				s = s.replace("<", "&lt;")
+				s = s.replace(">", "&gt;")
+				string += ("\n<{}>{}</{}>".format(x, s, x))
+			string += "\n</"+y+">"
+		else:
+			# clean string
+			s = str(tweetDict[y])
+			s = s.replace("&", "&amp;")
+			s = s.replace("<", "&lt;")
+			s = s.replace(">", "&gt;")
+			string += ("\n<{}>{}</{}>".format(y, s, y))
+
+	# closing tag		
+	string+= "\n</tweet>"
+
+	return string
+
+
+
+
+
 # get Twitter authentication tokens from a file on my machine
 # note: this is to prevent these access tokens from being published on github
 credentials = open("keys", "r")
@@ -39,7 +78,7 @@ if len(sys.argv) >= 2:
 else:
 	# default values for testing 
 	inputFileName = "t3.txt"
-	outputFileName = "test_output_3.txt"
+	outputFileName = "test_output_4.txt"
 	print("WARNING: Input and output file names not supplied. Using debugging defaults.")
 
 print("Input file:", inputFileName, "\tOutput file:", outputFileName)
@@ -69,20 +108,20 @@ with open(inputFileName, "r") as inputFile:
 
 		# convert each tweet's worth of data into a string and add it to the buffer
 		for x in status:
-			y = str((str(x).encode('utf-8'))) # this is rough but idk how else to deal with unicode errors
-			buffer += (y+"\n")
+			#y = str((str(x).encode('utf-8'))) # this is rough but idk how else to deal with unicode errors
+			buffer += (tweetDict2Xml(x))
 
 		# see if we need to write to the file and clear the buffer 
 		c+=1
 		if not(c%20):
 			print("...working "+str(c))
-			outputFile.write(buffer)
+			outputFile.write(buffer.encode('utf-8'))
 			buffer = ""
 
 		sleep(0.1)
 		
 # write anything remaining in buffer 
-outputFile.write(buffer)
+outputFile.write(str(buffer.encode('utf-8')))
 
 
 
