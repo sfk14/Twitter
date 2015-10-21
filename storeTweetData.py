@@ -16,8 +16,14 @@ from twython import Twython
 from time import sleep
 import sys
 
-# twitter app credentials 
-# ---------[ REDACTED ]----------
+# get Twitter authentication tokens from a file on my machine
+# note: this is to prevent these access tokens from being published on github
+credentials = open("keys", "r")
+ACCESS_TOKEN = credentials.readline().rstrip()
+ACCESS_SECRET = credentials.readline().rstrip()
+CONSUMER_KEY = credentials.readline().rstrip()
+CONSUMER_SECRET = credentials.readline().rstrip()
+credentials.close()
 
 # set up the connection to twitter 
 twitter = Twython(CONSUMER_KEY, access_token=ACCESS_TOKEN)
