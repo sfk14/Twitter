@@ -120,3 +120,5 @@ if __name__ == "__main__":
 
 	#actually run the search
 	basicSearch(searchString, outputFileName, maxResults)
+
+	
