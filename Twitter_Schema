@@ -1,0 +1,137 @@
+start = twitterOutput
+twitterOutput = element twitterOutput { year }
+year = element year { time_window }
+time_window = element time_window { neologism }
+neologism = element neologism { word, tweet }
+word = attribute word { text }
+tweet =
+    element tweet {
+        retweet_count,
+        coordinates,
+        favorited,
+        favorite_count,
+        lang,
+        in_reply_to_status_id_str,
+        place,
+        geo,
+        user,
+        body,
+        id_str,
+        id,
+        in_reply_to_status_id,
+        in_reply_to_screen_name,
+        is_quote_status,
+        source,
+        created_at,
+        truncated,
+        in_reply_to_user_id,
+        in_reply_to_user_id_str,
+        contributors,
+        retweeted,
+        entities
+    }
+retweet_count = element retweet_count { xsd:int }
+coordinates = element coordinates { text }
+favorited = element favorited { text }
+favorite_count = element favorite_count { xsd:int }
+lang = element lang { text }
+in_reply_to_status_id_str = element in_reply_to_status_id_str { text }
+place = element place { text }
+geo = element geo { text }
+user =
+    element user {
+        following,
+        created_at,
+        listed_count,
+        profile_image_url,
+        name,
+        profile_banner_url,
+        user_lang,
+        notifications,
+        favourites_count,
+        verified,
+        statuses_count,
+        profile_background_color,
+        profile_background_tile,
+        utc_offset,
+        location,
+        follow_request_sent,
+        default_profile,
+        contributors_enabled,
+        geo_enabled,
+        profile_sidebar_border_color,
+        has_extended_profile,
+        default_profile_image,
+        profile_sidebar_fill_color,
+        profile_text_color,
+        url,
+        profile_background_image_url,
+        profile_background_image_url_https,
+        is_translation_enabled,
+        entities,
+        profile_link_color,
+        profile_use_background_image,
+        time_zone,
+        profile_image_url_https,
+        friends_count,
+        description,
+        followers_count,
+        protected,
+        id_str,
+        is_translator,
+        screen_name,
+        id
+    }
+following = attribute following { text }
+created_at = attribute created_at { text }
+listed_count = attribute listed_count { xsd:int }
+profile_image_url = attribute profile_image_url { xsd:int }
+name = attribute name { text }
+profile_banner_url = attribute profile_banner_url { text }
+user_lang = attribute user_lang { text }
+notifications = attribute notifications { text }
+favourites_count = attribute favourites_count { xsd:int }
+verified = attribute verified { text }
+statuses_count = attribute statuses_count { xsd:int }
+profile_background_color = attribute profile_background_color { text }
+profile_background_tile = attribute profile_background_tile { text }
+utc_offset = attribute utc_offset { xsd:int }
+location = attribute location { text }
+follow_request_sent = attribute follow_request_sent { text }
+default_profile = attribute default_profile { text }
+contributors_enabled = attribute contributors_enabled { text }
+geo_enabled = attribute geo_enabled { text }
+profile_sidebar_border_color = attribute profile_sidebar_border_color { text }
+has_extended_profile = attribute has_extended_profile { text }
+default_profile_image = attribute default_profile_image { text }
+profile_sidebar_fill_color = attribute profile_sidebar_fill_color { text }
+profile_text_color = attribute profile_text_color { text }
+url = attribute url { text }
+profile_background_image_url = attribute profile_background_image_url { text }
+profile_background_image_url_https = attribute profile_background_image_url_https { text }
+is_translation_enabled = attribute is_translation_enabled { text }
+entities = element entities { description, url }
+entities_url = element entities_url { text }
+description = element description { description_url }
+description_url = attribute description_url { text }
+body = element body { text }
+id_str = element id_str { xsd:int }
+id = element id { xsd:int }
+in_reply_to_status_id = attribute in_reply_to_status_id { text }
+in_reply_to_screen_name = attribute in_reply_to_screen_name { text }
+is_quote_status = attribute is_quote_status { text }
+source = attribute source { text }
+truncated = attribute truncated { text }
+in_reply_to_user_id = attribute in_reply_to_user_id { text }
+in_reply_to_user_id_str = attribute in_reply_to_user_id_str { text }
+contributors = attribute contributors { text }
+retweeted = attribute retweeted { text }
+screen_name = attribute screen_name { text }
+is_translator = attribute is_translator { text }
+profile_link_color = attribute profile_link_color { text }
+profile_use_background_image = attribute profile_use_background_image { text }
+time_zone = attribute time_zone { text }
+profile_image_url_https = attribute profile_image_url_https { text }
+friends_count = attribute friends_count { text }
+followers_count = attribute followers_count { text }
+protected = attribute protected { text }
