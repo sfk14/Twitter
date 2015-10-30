@@ -84,7 +84,11 @@ else:
 print("Input file:", inputFileName, "\tOutput file:", outputFileName)
 
 # Open the output file.
-outputFile = open(outputFileName, "w")
+outputFile = open(outputFileName, "a+b")
+
+# Add XML root element and metadata
+outputFile.write(bytes("<twitterOutput>", "utf-8"))
+
 
 
 # counter so we know when to write to the file and clear the buffer
@@ -106,6 +110,7 @@ with open(inputFileName, "r") as inputFile:
 		# get the tweet data from twitter, up to 100 tweets at a time
 		status = twitter.lookup_status(id=line)
 
+
 		# convert each tweet's worth of data into a string and add it to the buffer
 		for x in status:
 			#y = str((str(x).encode('utf-8'))) # this is rough but idk how else to deal with unicode errors
@@ -114,16 +119,18 @@ with open(inputFileName, "r") as inputFile:
 		# see if we need to write to the file and clear the buffer 
 		c+=1
 		if not(c%20):
-			print("...working "+str(c))
-			outputFile.write(buffer.encode('utf-8'))
+			print("...working "+str(c*100))
+			#outputFile.write(buffer.encode('utf-8'))
+			outputFile.write(bytes(buffer, "utf-8"))
 			buffer = ""
 
 		sleep(0.1)
 		
 # write anything remaining in buffer 
-outputFile.write(str(buffer.encode('utf-8')))
+outputFile.write(bytes(buffer, "utf-8"))
 
-
+# write root element closing tag
+outputFile.write(bytes("</twitterOutput>", "utf-8"))
 
 inputFile.close()
 outputFile.close()

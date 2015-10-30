@@ -38,7 +38,7 @@ class JSON:
 	# Find the last tweet ID in the file using regular expressions
 	# Returns last tweet ID, or None on failure
 	def getLastTweetID(self):
-		matches = re.findall('data-tweet-id=\\\\"(\d\d\d\d\d\d\d\d\d\d\d)', self.contents, 0)
+		matches = re.findall('data-tweet-id=\\\\"(\d+)', self.contents, 0)
 		if matches:
 			return matches[-1]	
 		else:
@@ -48,7 +48,8 @@ class JSON:
 	# Find all the tweet IDs contained in the file
 	# Returns list of tweet IDs, or None on failure
 	def getTweetIDs(self):
-		matches = re.findall('data-tweet-id=\\\\"(\d\d\d\d\d\d\d\d\d\d\d)', self.contents, 0)
+		#matches = re.findall('data-tweet-id=\\\\"(\d\d\d\d\d\d\d\d\d\d\d)', self.contents, 0)
+		matches = re.findall('data-tweet-id=\\\\"(\d+)', self.contents, 0)
 		if matches:
 			return matches	
 		else:
