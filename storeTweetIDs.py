@@ -76,6 +76,8 @@ def basicSearch(requestURL, fileName="default_name.txt", maxResults = 0):
 		# Get a batch of tweets from Twitter. Seems to return 15-20 at a time.
 		j = JSON.fromURL(requestURL)
 
+		j.printContents()
+
 		# Get a list of the tweet ids from the returned JSON file. 
 		tweetIds = j.getTweetIDs()
 		if tweetIds == None:
@@ -92,7 +94,7 @@ def basicSearch(requestURL, fileName="default_name.txt", maxResults = 0):
 			numResults += writeTweetIDs(f, buffer)
 			print("..."+str(numResults))
 			buffer = []
-		sleep(0.1)
+		sleep(0.5)
 
 
 	numResults += writeTweetIDs(f, buffer)
@@ -108,7 +110,9 @@ if __name__ == "__main__":
 	#searchString = "https://twitter.com/i/search/timeline?vertical=default&q=stackoverflow%20since%3A2010-06-08%20until%3A2010-06-20&src=typd&include_available_features=1&include_entities=1&max_position=TWEET-17901046179-38292929111-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&reset_error_state=false"
 	#outputFileName = "default_name.txt"
 	searchString = "https://twitter.com/i/search/timeline?vertical=default&q=mephistophelian%20lang%3Aen%20since%3A2011-01-01%20until%3A2011-12-31&src=typd&include_available_features=1&include_entities=1&max_position=TWEET-131982699928883200-152258905760727040-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&reset_error_state=false"
-	outputFileName = "mep_2013_newest"
+	outputFileName = "mep_2013_newest5"
+	#searchString = "https://twitter.com/i/search/timeline?vertical=default&q=%22Kombucha%22%20lang%3Aen%20since%3A2011-01-01%20until%3A2011-12-31&src=typd&include_available_features=1&include_entities=1&lang=en&max_position=TWEET-152818692563025920-152896761122390016-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&reset_error_state=false"
+	#searchString = "https://mobile.twitter.com/i/rw/search/timeline/all?q=%22Kombucha%22%20lang%3Aen%20since%3A2011-01-01%20until%3A2011-12-31&next_cursor=TWEET-152818692563025920-152896761122390016-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 	maxResults = 0
 
 	if len(sys.argv) >= 2:
