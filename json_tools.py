@@ -48,7 +48,6 @@ class JSON:
 	# Find all the tweet IDs contained in the file
 	# Returns list of tweet IDs, or None on failure
 	def getTweetIDs(self):
-		#matches = re.findall('data-tweet-id=\\\\"(\d\d\d\d\d\d\d\d\d\d\d)', self.contents, 0)
 		matches = re.findall('data-tweet-id=\\\\"(\d+)', self.contents, 0)
 		if matches:
 			return matches	
