@@ -24,7 +24,7 @@
         <xsl:variable name="currentElement" select="."/>
 
         <!-- Automatically find the greatest Y value in the data using recursion and store it in $maxY so we can scale the chart to the data -->
-        <xsl:variable name="maxX">
+        <xsl:variable name="maxY">
             <xsl:call-template name="getMaxY">
                 <xsl:with-param name="count" select="5"/>
                 <xsl:with-param name="highestSofar" select="0"/>
@@ -42,7 +42,7 @@
                         x2="{count($years) * 4 * ($barWidth + $barSpacing)}"
                         y2="{- $maxBarHeight * (. div 5)}" stroke="black" stroke-dasharray="5,5"/>
                     <!-- And labels -->
-                    <text x="-40" y="{- $maxBarHeight * (. div 5)}"><xsl:value-of select="$maxBarHeight * (. div 5)"/></text>
+                    <text x="-40" y="{- $maxBarHeight * (. div 5)}"><xsl:value-of select="round($maxY * (. div 5))"/></text>
                 </xsl:for-each>
 
                 <!-- Now plot the data for each year -->
@@ -65,20 +65,20 @@
                     <xsl:variable name="yearStartX"
                         select="(position() - 1) * 4 * ($barWidth + $barSpacing)"/>
 
-                    <rect x="{$yearStartX}" y="{- $maxBarHeight * ($Q1 div $maxX)}"
-                        height="{$maxBarHeight * ($Q1 div $maxX )}" width="{$barWidth}px"
+                    <rect x="{$yearStartX}" y="{- $maxBarHeight * ($Q1 div $maxY)}"
+                        height="{$maxBarHeight * ($Q1 div $maxY )}" width="{$barWidth}px"
                         fill="blue"/>
                     <rect x="{$yearStartX + ($barWidth + $barSpacing)}"
-                        y="{- $maxBarHeight * ($Q2 div $maxX)}"
-                        height="{$maxBarHeight * ($Q2 div $maxX )}" width="{$barWidth}px"
+                        y="{- $maxBarHeight * ($Q2 div $maxY)}"
+                        height="{$maxBarHeight * ($Q2 div $maxY )}" width="{$barWidth}px"
                         fill="blue"/>
                     <rect x="{$yearStartX + 2 * ($barWidth + $barSpacing)}"
-                        y="{- $maxBarHeight * ($Q3 div $maxX)}"
-                        height="{$maxBarHeight * ($Q3 div $maxX )}" width="{$barWidth}px"
+                        y="{- $maxBarHeight * ($Q3 div $maxY)}"
+                        height="{$maxBarHeight * ($Q3 div $maxY )}" width="{$barWidth}px"
                         fill="blue"/>
                     <rect x="{$yearStartX + 3 * ($barWidth + $barSpacing)}"
-                        y="{- $maxBarHeight * ($Q4 div $maxX)}"
-                        height="{$maxBarHeight * ($Q4 div $maxX )}" width="{$barWidth}px"
+                        y="{- $maxBarHeight * ($Q4 div $maxY)}"
+                        height="{$maxBarHeight * ($Q4 div $maxY )}" width="{$barWidth}px"
                         fill="blue"/>
                     
                     <!-- And add text labels -->
