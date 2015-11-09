@@ -5,9 +5,6 @@
 
     <xsl:output method="xml" indent="yes"/>
 
-
-    <!-- The total number of months to display on the x axis -->
-    <xsl:variable name="totalMonths" select="45"/>
     <!-- How wide each bar will be on the chart, in pixels -->
     <xsl:variable name="barWidth" select="20"/>
     <xsl:variable name="barSpacing" select="5"/>
@@ -26,7 +23,7 @@
         <!-- Need to capture this for later use -->
         <xsl:variable name="currentElement" select="."/>
 
-        <!-- Find the greatest Y value in the data using recursion and store it in $maxY -->
+        <!-- Automatically find the greatest Y value in the data using recursion and store it in $maxY so we can scale the chart to the data -->
         <xsl:variable name="maxX">
             <xsl:call-template name="getMaxY">
                 <xsl:with-param name="count" select="5"/>
