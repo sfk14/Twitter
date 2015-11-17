@@ -1,6 +1,7 @@
 import urllib.request	# for downloading the files
 import json
 import requests
+import webbrowser
 
 
 searchString = "https://twitter.com/i/search/timeline?vertical=default&q=mephistophelian%20lang%3Aen%20since%3A2011-01-01%20until%3A2011-12-31&src=typd&include_available_features=1&include_entities=1&max_position=TWEET-131982699928883200-152258905760727040-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&reset_error_state=false&callback=inner"
@@ -15,6 +16,7 @@ with urllib.request.urlopen(searchString) as data:
 	print(result)
 
 path="https://twitter.com/i/search/timeline?vertical=default&q=%22testing%22%20lang%3Aen%20since%3A2010-01-01%20until%3A2011-01-01&src=typd&composed_count=0&include_available_features=1&include_entities=1&include_new_items_bar=true&interval=30000&lang=en&latent_count=0&min_position=TWEET-20987467066773506-20992564681244672-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+path="https://mobile.twitter.com/i/rw/search/timeline/all?q=%22testing%22%20lang%3Aen%20since%3A2010-01-01%20until%3A2011-01-01&next_cursor=TWEET-20984058766954497-20992564681244672-BD1UO2FFu9QAAAAAAAAETAAAAAcAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 initialPath = "https://twitter.com/search?q=%22testing%22%20lang%3Aen%20since%3A2010-01-01%20until%3A2011-01-01&src=typd&lang=en"
 
 '''
@@ -23,6 +25,7 @@ data = response.read().decode(encoding='UTF-8')
 print(data)
 '''
 
+webbrowser.open(path)
 
 print("==============================\n\n")
 s = requests.Session()
