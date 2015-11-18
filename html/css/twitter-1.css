@@ -5,6 +5,7 @@ position:fixed;
 body {
 background-image:url("../images/background.jpg");
 /* Original from http://jqueryplugin.net/wp-content/uploads/2014/07/Pure-CSS3-Animation-Cloud-Background-Twitter.jpg */
+
 }
 
 h1 {
@@ -14,6 +15,17 @@ color:white;
 
 p {
 color:white;
-background-color:#55acee;
+margin-left:5%;
+margin-right:5%;
+margin-bottom:5%;
+
+
+}
+
+.hasBackground {
+    
+    background: rgba(85, 172, 238, 0.4);
+    margin:5%;
+    
 }
 
