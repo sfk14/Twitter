@@ -13,19 +13,30 @@ text-align:center;
 color:white;
 }
 
-p {
-color:white;
+.hasBackground {  
+    background: rgba(85, 172, 238, 0.6);
+    margin:5%; 
+    color:white;
+}
+
+.hasBackground p {
 margin-left:5%;
 margin-right:5%;
 margin-bottom:5%;
 
-
 }
 
-.hasBackground {
-    
-    background: rgba(85, 172, 238, 0.4);
-    margin:5%;
-    
+
+.pageTitle {
+    background: rgba(85, 172, 238, 0.6);
+    margin-left:30%;
+    margin-right:30%;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+    color:white;
+    text-align:center
 }
 
