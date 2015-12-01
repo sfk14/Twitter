@@ -1,42 +1,46 @@
-nav {
-position:fixed;
+nav{
+    position:fixed;
 }
 
-body {
-background-image:url("../images/background.jpg");
-/* Original from http://jqueryplugin.net/wp-content/uploads/2014/07/Pure-CSS3-Animation-Cloud-Background-Twitter.jpg */
+body{
+    background-image:url("../images/background.jpg");
+    /* Original from http://jqueryplugin.net/wp-content/uploads/2014/07/Pure-CSS3-Animation-Cloud-Background-Twitter.jpg */
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    background-attachment:fixed;
 
 }
 
-h1 {
-text-align:center; 
-color:white;
-}
-
-.hasBackground {  
-    background: rgba(85, 172, 238, 0.6);
-    margin:5%; 
+h1{
+    text-align:center;
     color:white;
 }
 
-.hasBackground p {
-margin-left:5%;
-margin-right:5%;
-margin-bottom:5%;
+.hasBackground{
+    background:rgba(85, 172, 238, 0.6);
+    margin:5%;
+    color:white;
+    padding:5px;
+}
+
+.hasBackground p{
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%;
 
 }
 
 
-.pageTitle {
-    background: rgba(85, 172, 238, 0.6);
+.pageTitle{
+    background:rgba(85, 172, 238, 0.6);
     margin-left:30%;
     margin-right:30%;
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    font-weight: bold;
+    display:block;
+    font-size:2em;
+    margin-top:0.67em;
+    margin-bottom:0.67em;
+    font-weight:bold;
     color:white;
     text-align:center
 }
-
