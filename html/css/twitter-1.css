@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'picoblackalregular';
+    src: url('pico-black-webfont.ttf');
+    src: url('pico-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pico-black-webfont.woff2') format('woff2'),
+         url('pico-black-webfont.woff') format('woff'),
+         url('pico-black-webfont.ttf') format('truetype'),
+         url('pico-black-webfont.svg#picoblackalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 nav {
     position:fixed;
 }
@@ -9,7 +22,6 @@ body {
     background-size:100% 100%;
     background-position:center;
     background-attachment:fixed;
-
 }
 
 h1 {
@@ -32,17 +44,19 @@ h1 {
 }
 
 
-.pageTitle {
+.pageTitle{
     background:rgba(85, 172, 238, 0.6);
     margin-left:30%;
     margin-right:30%;
     display:block;
-    font-size:2em;
     margin-top:0.67em;
     margin-bottom:0.67em;
     font-weight:bold;
     color:white;
-    text-align:center
+    text-align:center;
+    font-family:"Cooper Black", "Arial Black", Sans-Serif;
+    font-family:picoblackalregular;
+    font-size:300%;
 }
 
 
