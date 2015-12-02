@@ -1,8 +1,8 @@
-nav{
+nav {
     position:fixed;
 }
 
-body{
+body {
     background-image:url("../images/background.jpg");
     /* Original from http://jqueryplugin.net/wp-content/uploads/2014/07/Pure-CSS3-Animation-Cloud-Background-Twitter.jpg */
     background-repeat:no-repeat;
@@ -12,19 +12,19 @@ body{
 
 }
 
-h1{
+h1 {
     text-align:center;
     color:white;
 }
 
-.hasBackground{
+.hasBackground {
     background:rgba(85, 172, 238, 0.6);
     margin:5%;
     color:white;
     padding:5px;
 }
 
-.hasBackground p{
+.hasBackground p {
     margin-left:5%;
     margin-right:5%;
     margin-bottom:5%;
@@ -32,7 +32,7 @@ h1{
 }
 
 
-.pageTitle{
+.pageTitle {
     background:rgba(85, 172, 238, 0.6);
     margin-left:30%;
     margin-right:30%;
@@ -44,3 +44,30 @@ h1{
     color:white;
     text-align:center
 }
+
+
+.sideBar {
+    position:relative;
+    width:300px;
+    margin:20px;
+}
+
+.chartArea {
+    position:absolute;
+    margin-left:350px;
+    top:0px;
+}
+
+.container {
+    position:relative;
+}
+
+
+/* These correspond to paragraphs that describe the charts on the analysis page. They are initially hidden; once the user chooses a radio button, the javascript will show only the needed explanatory text beside the graph. */
+#usageDescription {
+    display:none;
+} 
+
+#retweetFavoriteDescription {
+    display:none;
+} 
