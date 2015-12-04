@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+   <g transform="translate(50, 350)">
+      <line x1="0"
+            y1="-50"
+            x2="500"
+            y2="-50"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-50">11</text>
+      <line x1="0"
+            y1="-100"
+            x2="500"
+            y2="-100"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-100">22</text>
+      <line x1="0"
+            y1="-150"
+            x2="500"
+            y2="-150"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-150">34</text>
+      <line x1="0"
+            y1="-200"
+            x2="500"
+            y2="-200"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-200">45</text>
+      <line x1="0"
+            y1="-250"
+            x2="500"
+            y2="-250"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-250">56</text>
+      <rect x="0"
+            y="-129.46428571428572"
+            height="129.46428571428572"
+            width="20px"
+            fill="blue"/>
+      <rect x="25"
+            y="-71.42857142857143"
+            height="71.42857142857143"
+            width="20px"
+            fill="blue"/>
+      <rect x="50"
+            y="-107.14285714285714"
+            height="107.14285714285714"
+            width="20px"
+            fill="blue"/>
+      <rect x="75" y="-156.25" height="156.25" width="20px" fill="blue"/>
+      <text x="10" y="12" style="writing-mode: tb;">Q1 2011</text>
+      <text x="35" y="12" style="writing-mode: tb;">Q2 2011</text>
+      <text x="60" y="12" style="writing-mode: tb;">Q3 2011</text>
+      <text x="85" y="12" style="writing-mode: tb;">Q4 2011</text>
+      <rect x="100"
+            y="-160.71428571428572"
+            height="160.71428571428572"
+            width="20px"
+            fill="blue"/>
+      <rect x="125" y="-250" height="250" width="20px" fill="blue"/>
+      <rect x="150"
+            y="-116.07142857142857"
+            height="116.07142857142857"
+            width="20px"
+            fill="blue"/>
+      <rect x="175"
+            y="-129.46428571428572"
+            height="129.46428571428572"
+            width="20px"
+            fill="blue"/>
+      <text x="110" y="12" style="writing-mode: tb;">Q1 2012</text>
+      <text x="135" y="12" style="writing-mode: tb;">Q2 2012</text>
+      <text x="160" y="12" style="writing-mode: tb;">Q3 2012</text>
+      <text x="185" y="12" style="writing-mode: tb;">Q4 2012</text>
+      <rect x="200"
+            y="-209.82142857142858"
+            height="209.82142857142858"
+            width="20px"
+            fill="blue"/>
+      <rect x="225"
+            y="-205.35714285714286"
+            height="205.35714285714286"
+            width="20px"
+            fill="blue"/>
+      <rect x="250"
+            y="-138.39285714285714"
+            height="138.39285714285714"
+            width="20px"
+            fill="blue"/>
+      <rect x="275"
+            y="-138.39285714285714"
+            height="138.39285714285714"
+            width="20px"
+            fill="blue"/>
+      <text x="210" y="12" style="writing-mode: tb;">Q1 2013</text>
+      <text x="235" y="12" style="writing-mode: tb;">Q2 2013</text>
+      <text x="260" y="12" style="writing-mode: tb;">Q3 2013</text>
+      <text x="285" y="12" style="writing-mode: tb;">Q4 2013</text>
+      <rect x="300"
+            y="-129.46428571428572"
+            height="129.46428571428572"
+            width="20px"
+            fill="blue"/>
+      <rect x="325"
+            y="-151.78571428571428"
+            height="151.78571428571428"
+            width="20px"
+            fill="blue"/>
+      <rect x="350" y="-125" height="125" width="20px" fill="blue"/>
+      <rect x="375" y="-187.5" height="187.5" width="20px" fill="blue"/>
+      <text x="310" y="12" style="writing-mode: tb;">Q1 2014</text>
+      <text x="335" y="12" style="writing-mode: tb;">Q2 2014</text>
+      <text x="360" y="12" style="writing-mode: tb;">Q3 2014</text>
+      <text x="385" y="12" style="writing-mode: tb;">Q4 2014</text>
+      <rect x="400"
+            y="-178.57142857142858"
+            height="178.57142857142858"
+            width="20px"
+            fill="blue"/>
+      <rect x="425"
+            y="-200.89285714285714"
+            height="200.89285714285714"
+            width="20px"
+            fill="blue"/>
+      <rect x="450"
+            y="-80.35714285714286"
+            height="80.35714285714286"
+            width="20px"
+            fill="blue"/>
+      <rect x="475" y="-0" height="0" width="20px" fill="blue"/>
+      <text x="410" y="12" style="writing-mode: tb;">Q1 2015</text>
+      <text x="435" y="12" style="writing-mode: tb;">Q2 2015</text>
+      <text x="460" y="12" style="writing-mode: tb;">Q3 2015</text>
+      <text x="485" y="12" style="writing-mode: tb;">Q4 2015</text>
+      <line x1="0"
+            y1="0"
+            x2="500"
+            y2="0"
+            stroke="black"
+            stroke-width="2px"/>
+      <line x1="0"
+            y1="0"
+            x2="0"
+            y2="-250"
+            stroke="black"
+            stroke-width="2px"/>
+   </g>
+</svg>
