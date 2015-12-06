@@ -2,6 +2,9 @@ function init(){
     var checks = document.getElementsByTagName("input");
     for(var i = 0; i < checks.length; i++){
         checks[i].addEventListener('change', selection_made, false);
+        if(checks[i].value == "usage"){
+            checks[i].checked = "true";
+        }
     }
 }
 function selection_made(){
