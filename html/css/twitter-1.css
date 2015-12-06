@@ -68,7 +68,7 @@ h1 {
 .chartArea {
     position:absolute;
     margin-left:350px;
-    top:0px;
+    top:-75px;
 }
 
 .container {
@@ -84,3 +84,12 @@ h1 {
 #retweetFavoriteDescription {
     display:none;
 } 
+
+svg {
+    width:600px;
+    height:450px;
+}
+
+#schlumpy, #mephistophelian {
+    visibility:hidden;
+}
