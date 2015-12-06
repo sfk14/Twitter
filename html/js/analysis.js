@@ -9,10 +9,18 @@ function init(){
 }
 function selection_made(){
     var selection = document.getElementById(this.value);
-    if(this.checked){
-        selection.style.visibility = "visible";
+    if(this.checked == "true"){
+        if(this.type == "checkbox"){
+            selection.setAttribute("opacity", 0.4);
+        }else{
+            selection.style.visibility = "visible";
+        }
     }else{
-        selection.style.visibility = "hidden";
+        if(this.type == "checkbox"){
+            selection.setAttribute("opacity", 0);
+        }else{
+            selection.style.visibility = "hidden";
+        }
     }
 }
 window.onload = init;
