@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+   <g transform="translate(50, 350)">
+      <line x1="0"
+            y1="-50"
+            x2="500"
+            y2="-50"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-50">20%</text>
+      <line x1="0"
+            y1="-100"
+            x2="500"
+            y2="-100"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-100">40%</text>
+      <line x1="0"
+            y1="-150"
+            x2="500"
+            y2="-150"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-150">60%</text>
+      <line x1="0"
+            y1="-200"
+            x2="500"
+            y2="-200"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-200">80%</text>
+      <line x1="0"
+            y1="-250"
+            x2="500"
+            y2="-250"
+            stroke="black"
+            stroke-dasharray="5,5"/>
+      <text x="-40" y="-250">100%</text>
+      <rect x="0" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="25" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="50" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="75" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="0"
+            y="-36.1842105263157895"
+            height="36.1842105263157895"
+            width="20px"
+            fill="blue"/>
+      <rect x="0"
+            y="-250"
+            height="88.8157894736842105"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="25" y="-28.125" height="28.125" width="20px" fill="blue"/>
+      <rect x="25" y="-250" height="84.375" width="20px" fill="#33CCFF"/>
+      <rect x="50"
+            y="-30.8641975308641975"
+            height="30.8641975308641975"
+            width="20px"
+            fill="blue"/>
+      <rect x="50"
+            y="-250"
+            height="95.67901234567901225"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="75"
+            y="-24.972253052164262"
+            height="24.972253052164262"
+            width="20px"
+            fill="blue"/>
+      <rect x="75"
+            y="-250"
+            height="91.564927857935627"
+            width="20px"
+            fill="#33CCFF"/>
+      <text x="10" y="12" style="writing-mode: tb;">Q1 2011</text>
+      <text x="35" y="12" style="writing-mode: tb;">Q2 2011</text>
+      <text x="60" y="12" style="writing-mode: tb;">Q3 2011</text>
+      <text x="85" y="12" style="writing-mode: tb;">Q4 2011</text>
+      <rect x="100" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="125" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="150" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="175" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="100"
+            y="-36.32478632478632475"
+            height="36.32478632478632475"
+            width="20px"
+            fill="blue"/>
+      <rect x="100"
+            y="-250"
+            height="83.33333333333333325"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="125"
+            y="-56.4516129032258065"
+            height="56.4516129032258065"
+            width="20px"
+            fill="blue"/>
+      <rect x="125"
+            y="-250"
+            height="77.956989247311828"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="150"
+            y="-39.215686274509804"
+            height="39.215686274509804"
+            width="20px"
+            fill="blue"/>
+      <rect x="150"
+            y="-250"
+            height="75.980392156862745"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="175"
+            y="-38.60127157129881925"
+            height="38.60127157129881925"
+            width="20px"
+            fill="blue"/>
+      <rect x="175"
+            y="-250"
+            height="93.09718437783832875"
+            width="20px"
+            fill="#33CCFF"/>
+      <text x="110" y="12" style="writing-mode: tb;">Q1 2012</text>
+      <text x="135" y="12" style="writing-mode: tb;">Q2 2012</text>
+      <text x="160" y="12" style="writing-mode: tb;">Q3 2012</text>
+      <text x="185" y="12" style="writing-mode: tb;">Q4 2012</text>
+      <rect x="200" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="225" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="250" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="275" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="200"
+            y="-39.17910447761194025"
+            height="39.17910447761194025"
+            width="20px"
+            fill="blue"/>
+      <rect x="200"
+            y="-250"
+            height="69.02985074626865675"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="225"
+            y="-31.007751937984496"
+            height="31.007751937984496"
+            width="20px"
+            fill="blue"/>
+      <rect x="225"
+            y="-250"
+            height="71.70542635658914725"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="250" y="-40" height="40" width="20px" fill="blue"/>
+      <rect x="250" y="-250" height="60" width="20px" fill="#33CCFF"/>
+      <rect x="275"
+            y="-52.22524977293369675"
+            height="52.22524977293369675"
+            width="20px"
+            fill="blue"/>
+      <rect x="275"
+            y="-250"
+            height="45.413260672116258"
+            width="20px"
+            fill="#33CCFF"/>
+      <text x="210" y="12" style="writing-mode: tb;">Q1 2013</text>
+      <text x="235" y="12" style="writing-mode: tb;">Q2 2013</text>
+      <text x="260" y="12" style="writing-mode: tb;">Q3 2013</text>
+      <text x="285" y="12" style="writing-mode: tb;">Q4 2013</text>
+      <rect x="300" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="325" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="350" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="375" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="300"
+            y="-34.53038674033149175"
+            height="34.53038674033149175"
+            width="20px"
+            fill="blue"/>
+      <rect x="300"
+            y="-250"
+            height="73.2044198895027625"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="325"
+            y="-43.4782608695652175"
+            height="43.4782608695652175"
+            width="20px"
+            fill="blue"/>
+      <rect x="325"
+            y="-250"
+            height="52.17391304347826075"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="350"
+            y="-41.94630872483221475"
+            height="41.94630872483221475"
+            width="20px"
+            fill="blue"/>
+      <rect x="350"
+            y="-250"
+            height="45.302013422818792"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="375"
+            y="-27.2879932829554995"
+            height="27.2879932829554995"
+            width="20px"
+            fill="blue"/>
+      <rect x="375"
+            y="-250"
+            height="58.77413937867338375"
+            width="20px"
+            fill="#33CCFF"/>
+      <text x="310" y="12" style="writing-mode: tb;">Q1 2014</text>
+      <text x="335" y="12" style="writing-mode: tb;">Q2 2014</text>
+      <text x="360" y="12" style="writing-mode: tb;">Q3 2014</text>
+      <text x="385" y="12" style="writing-mode: tb;">Q4 2014</text>
+      <rect x="400" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="425" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="450" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="475" y="-250" height="250" width="20px" fill="#B8B8B8"/>
+      <rect x="400" y="-32.5" height="32.5" width="20px" fill="blue"/>
+      <rect x="400" y="-250" height="52.5" width="20px" fill="#33CCFF"/>
+      <rect x="425"
+            y="-34.6153846153846155"
+            height="34.6153846153846155"
+            width="20px"
+            fill="blue"/>
+      <rect x="425"
+            y="-250"
+            height="53.84615384615384625"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="450"
+            y="-37.87878787878787875"
+            height="37.87878787878787875"
+            width="20px"
+            fill="blue"/>
+      <rect x="450"
+            y="-250"
+            height="22.72727272727272725"
+            width="20px"
+            fill="#33CCFF"/>
+      <rect x="475" y="0" height="0" width="20px" fill="blue"/>
+      <rect x="475" y="-250" height="0" width="20px" fill="#33CCFF"/>
+      <text x="410" y="12" style="writing-mode: tb;">Q1 2015</text>
+      <text x="435" y="12" style="writing-mode: tb;">Q2 2015</text>
+      <text x="460" y="12" style="writing-mode: tb;">Q3 2015</text>
+      <text x="485" y="12" style="writing-mode: tb;">Q4 2015</text>
+      <line x1="0"
+            y1="0"
+            x2="500"
+            y2="0"
+            stroke="black"
+            stroke-width="2px"/>
+      <line x1="0"
+            y1="0"
+            x2="0"
+            y2="-250"
+            stroke="black"
+            stroke-width="2px"/>
+   </g>
+</svg>
