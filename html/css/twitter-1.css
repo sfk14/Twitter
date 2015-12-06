@@ -78,12 +78,12 @@ h1 {
 
 /* These correspond to paragraphs that describe the charts on the analysis page. They are initially hidden; once the user chooses a radio button, the javascript will show only the needed explanatory text beside the graph. */
 #usageDescription {
-    display:none;
-} 
+    display:block;
+}
 
 #retweetFavoriteDescription {
     display:none;
-} 
+}
 
 svg {
     width:600px;
