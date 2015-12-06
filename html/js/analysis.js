@@ -12,5 +12,4 @@ function selection_made(){
         selection.style.visibility = "hidden";
     }
 }
-
 window.onload = init;
