@@ -94,7 +94,7 @@ svg {
     visibility:hidden;
 }
 
-#retweetFavorite, #usage {
+#retweetFavorite {
     display:none;
 }
 
