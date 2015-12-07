@@ -7,42 +7,42 @@
             y2="-50"
             stroke="black"
             stroke-dasharray="5,5"/>
-      <text x="-40" y="-50">20%</text>
+      <text x="-40" y="-50">20</text>
       <line x1="0"
             y1="-100"
             x2="500"
             y2="-100"
             stroke="black"
             stroke-dasharray="5,5"/>
-      <text x="-40" y="-100">40%</text>
+      <text x="-40" y="-100">40</text>
       <line x1="0"
             y1="-150"
             x2="500"
             y2="-150"
             stroke="black"
             stroke-dasharray="5,5"/>
-      <text x="-40" y="-150">60%</text>
+      <text x="-40" y="-150">60</text>
       <line x1="0"
             y1="-200"
             x2="500"
             y2="-200"
             stroke="black"
             stroke-dasharray="5,5"/>
-      <text x="-40" y="-200">80%</text>
+      <text x="-40" y="-200">80</text>
       <line x1="0"
             y1="-250"
             x2="500"
             y2="-250"
             stroke="black"
             stroke-dasharray="5,5"/>
-      <text x="-40" y="-250">100%</text>
+      <text x="-40" y="-250">100</text>
       <rect x="0" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="25" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="50" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="75" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="0"
-            y="-60.3448275862068965"
-            height="60.3448275862068965"
+            y="-68.96551724137931025"
+            height="68.96551724137931025"
             width="20px"
             fill="blue"/>
       <rect x="0"
@@ -52,20 +52,24 @@
             fill="#33CCFF"/>
       <rect x="25" y="-31.25" height="31.25" width="20px" fill="blue"/>
       <rect x="25" y="-250" height="15.625" width="20px" fill="#33CCFF"/>
-      <rect x="50" y="-93.75" height="93.75" width="20px" fill="blue"/>
+      <rect x="50"
+            y="-104.16666666666666675"
+            height="104.16666666666666675"
+            width="20px"
+            fill="blue"/>
       <rect x="50"
             y="-250"
-            height="20.83333333333333325"
+            height="41.66666666666666675"
             width="20px"
             fill="#33CCFF"/>
       <rect x="75"
-            y="-64.1025641025641025"
-            height="64.1025641025641025"
+            y="-78.5489860039988575"
+            height="78.5489860039988575"
             width="20px"
             fill="blue"/>
       <rect x="75"
             y="-250"
-            height="7.1225071225071225"
+            height="7.1408169094544415"
             width="20px"
             fill="#33CCFF"/>
       <text x="10" y="12" style="writing-mode: tb;">Q1 2011</text>
@@ -77,8 +81,8 @@
       <rect x="150" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="175" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="100"
-            y="-83.33333333333333325"
-            height="83.33333333333333325"
+            y="-104.16666666666666675"
+            height="104.16666666666666675"
             width="20px"
             fill="blue"/>
       <rect x="100"
@@ -86,15 +90,19 @@
             height="27.77777777777777775"
             width="20px"
             fill="#33CCFF"/>
-      <rect x="125" y="-62.5" height="62.5" width="20px" fill="blue"/>
+      <rect x="125"
+            y="-71.4285714285714285"
+            height="71.4285714285714285"
+            width="20px"
+            fill="blue"/>
       <rect x="125"
             y="-250"
             height="22.3214285714285715"
             width="20px"
             fill="#33CCFF"/>
       <rect x="150"
-            y="-86.5384615384615385"
-            height="86.5384615384615385"
+            y="-105.76923076923076925"
+            height="105.76923076923076925"
             width="20px"
             fill="blue"/>
       <rect x="150"
@@ -103,13 +111,13 @@
             width="20px"
             fill="#33CCFF"/>
       <rect x="175"
-            y="-77.3195876288659795"
-            height="77.3195876288659795"
+            y="-86.17718028266115125"
+            height="86.17718028266115125"
             width="20px"
             fill="blue"/>
       <rect x="175"
             y="-250"
-            height="34.36426116838487975"
+            height="34.4708721130644605"
             width="20px"
             fill="#33CCFF"/>
       <text x="110" y="12" style="writing-mode: tb;">Q1 2012</text>
@@ -121,14 +129,14 @@
       <rect x="250" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="275" y="-250" height="250" width="20px" fill="#B8B8B8"/>
       <rect x="200"
-            y="-31.9148936170212765"
-            height="31.9148936170212765"
+            y="-42.55319148936170225"
+            height="42.55319148936170225"
             width="20px"
             fill="blue"/>
       <rect x="200" y="-250" height="0" width="20px" fill="#33CCFF"/>
       <rect x="225"
-            y="-32.608695652173913"
-            height="32.608695652173913"
+            y="-38.04347826086956525"
+            height="38.04347826086956525"
             width="20px"
             fill="blue"/>
       <rect x="225"
@@ -147,13 +155,13 @@
             width="20px"
             fill="#33CCFF"/>
       <rect x="275"
-            y="-24.11575562700964625"
-            height="24.11575562700964625"
+            y="-40.309577555627217"
+            height="40.309577555627217"
             width="20px"
             fill="blue"/>
       <rect x="275"
             y="-250"
-            height="16.07717041800643075"
+            height="16.12383102225088675"
             width="20px"
             fill="#33CCFF"/>
       <text x="210" y="12" style="writing-mode: tb;">Q1 2013</text>
@@ -171,13 +179,13 @@
             fill="blue"/>
       <rect x="300" y="-250" height="0" width="20px" fill="#33CCFF"/>
       <rect x="325"
-            y="-58.823529411764706"
-            height="58.823529411764706"
+            y="-66.176470588235294"
+            height="66.176470588235294"
             width="20px"
             fill="blue"/>
       <rect x="325"
             y="-250"
-            height="29.411764705882353"
+            height="36.76470588235294125"
             width="20px"
             fill="#33CCFF"/>
       <rect x="350"
@@ -191,13 +199,13 @@
             width="20px"
             fill="#33CCFF"/>
       <rect x="375"
-            y="-71.2589073634204275"
-            height="71.2589073634204275"
+            y="-89.26446084265651025"
+            height="89.26446084265651025"
             width="20px"
             fill="blue"/>
       <rect x="375"
             y="-250"
-            height="29.69121140142517825"
+            height="29.7548202808855035"
             width="20px"
             fill="#33CCFF"/>
       <text x="310" y="12" style="writing-mode: tb;">Q1 2014</text>
@@ -211,8 +219,8 @@
       <rect x="400" y="-75" height="75" width="20px" fill="blue"/>
       <rect x="400" y="-250" height="12.5" width="20px" fill="#33CCFF"/>
       <rect x="425"
-            y="-38.888888888888889"
-            height="38.888888888888889"
+            y="-55.5555555555555555"
+            height="55.5555555555555555"
             width="20px"
             fill="blue"/>
       <rect x="425"
