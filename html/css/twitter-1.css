@@ -95,7 +95,7 @@ svg {
 }
 
 #retweetFavorite, #usage {
-    
+    display:none;
 }
 
 .commonsLicense {
