@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="retweetFavorite">
+    <g transform="translate(75, 600)">
+        <line x1="0" y1="0" x2="1100" y2="0" stroke="black" stroke-width="2"/>
+        <line x1="0" y1="0" x2="0" y2="-500" stroke="black" stroke-width="2"/>
+        <text x="-50" y="-150">0.5</text>
+        <text x="-50" y="-300">1.0</text>
+        <text x="100" y="20" text-anchor="middle">2006</text>
+        <text x="200" y="20" text-anchor="middle">2007</text>
+        <text x="300" y="20" text-anchor="middle">2008</text>
+        <text x="400" y="20" text-anchor="middle">2009</text>
+        <text x="500" y="20" text-anchor="middle">2010</text>
+        <text x="600" y="20" text-anchor="middle">2011</text>
+        <text x="700" y="20" text-anchor="middle">2012</text>
+        <text x="800" y="20" text-anchor="middle">2013</text>
+        <text x="900" y="20" text-anchor="middle">2014</text>
+        <text x="1000" y="20" text-anchor="middle">2015</text>
+        <g id="mephistophelian">
+            <circle cx="100" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="100" y1="-0" x2="200" y2="-0" stroke="red" stroke-width="3" opacity="0.4"/>
+            <circle cx="200" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="200" y1="-0" x2="300" y2="-0" stroke="red" stroke-width="3" opacity="0.4"/>
+            <circle cx="300" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="300" y1="-0" x2="400" y2="-0" stroke="red" stroke-width="3" opacity="0.4"/>
+            <circle cx="400" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="400" y1="-0" x2="500" y2="-0" stroke="red" stroke-width="3" opacity="0.4"/>
+            <circle cx="500" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="500" y1="-0" x2="600" y2="-8.653846153846155" stroke="red" stroke-width="3"
+                opacity="0.4"/>
+            <circle cx="600" cy="-8.653846153846155" r="5" fill="red" opacity="0.4"/>
+            <line x1="600" y1="-8.653846153846155" x2="700" y2="-104.08163265306122" stroke="red"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="700" cy="-104.08163265306122" r="5" fill="red" opacity="0.4"/>
+            <line x1="700" y1="-104.08163265306122" x2="800" y2="-77.41935483870968" stroke="red"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="800" cy="-77.41935483870968" r="5" fill="red" opacity="0.4"/>
+            <line x1="800" y1="-77.41935483870968" x2="900" y2="-137.593984962406" stroke="red"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="900" cy="-137.593984962406" r="5" fill="red" opacity="0.4"/>
+            <line x1="900" y1="-137.593984962406" x2="1000" y2="-212.62135922330097" stroke="red"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="1000" cy="-212.62135922330097" r="5" fill="red" opacity="0.4"/>
+            <circle cx="100" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="100" y1="-0" x2="200" y2="-0" stroke="red" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="200" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="200" y1="-0" x2="300" y2="-0" stroke="red" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="300" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="300" y1="-0" x2="400" y2="-0" stroke="red" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="400" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="400" y1="-0" x2="500" y2="-0" stroke="red" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="500" cy="-0" r="5" fill="red" opacity="0.4"/>
+            <line x1="500" y1="-0" x2="600" y2="-8.653846153846155" stroke="red" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="600" cy="-8.653846153846155" r="5" fill="red" opacity="0.4"/>
+            <line x1="600" y1="-8.653846153846155" x2="700" y2="-26.53061224489796" stroke="red"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="700" cy="-26.53061224489796" r="5" fill="red" opacity="0.4"/>
+            <line x1="700" y1="-26.53061224489796" x2="800" y2="-87.0967741935484" stroke="red"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="800" cy="-87.0967741935484" r="5" fill="red" opacity="0.4"/>
+            <line x1="800" y1="-87.0967741935484" x2="900" y2="-268.42105263157896" stroke="red"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="900" cy="-268.42105263157896" r="5" fill="red" opacity="0.4"/>
+            <line x1="900" y1="-268.42105263157896" x2="1000" y2="-224.27184466019418" stroke="red"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="1000" cy="-224.27184466019418" r="5" fill="red" opacity="0.4"/>
+        </g>
+        <g id="schlumpy">
+            <circle cx="100" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="100" y1="-0" x2="200" y2="-0" stroke="blue" stroke-width="3" opacity="0.4"/>
+            <circle cx="200" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="200" y1="-0" x2="300" y2="-0" stroke="blue" stroke-width="3" opacity="0.4"/>
+            <circle cx="300" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="300" y1="-0" x2="400" y2="-0" stroke="blue" stroke-width="3" opacity="0.4"/>
+            <circle cx="400" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="400" y1="-0" x2="500" y2="-0" stroke="blue" stroke-width="3" opacity="0.4"/>
+            <circle cx="500" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="500" y1="-0" x2="600" y2="-13.761467889908257" stroke="blue" stroke-width="3"
+                opacity="0.4"/>
+            <circle cx="600" cy="-13.761467889908257" r="5" fill="blue" opacity="0.4"/>
+            <line x1="600" y1="-13.761467889908257" x2="700" y2="-33.41232227488152" stroke="blue"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="700" cy="-33.41232227488152" r="5" fill="blue" opacity="0.4"/>
+            <line x1="700" y1="-33.41232227488152" x2="800" y2="-84.98942917547568" stroke="blue"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="800" cy="-84.98942917547568" r="5" fill="blue" opacity="0.4"/>
+            <line x1="800" y1="-84.98942917547568" x2="900" y2="-113.82978723404256" stroke="blue"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="900" cy="-113.82978723404256" r="5" fill="blue" opacity="0.4"/>
+            <line x1="900" y1="-113.82978723404256" x2="1000" y2="-132.77027027027026" stroke="blue"
+                stroke-width="3" opacity="0.4"/>
+            <circle cx="1000" cy="-132.77027027027026" r="5" fill="blue" opacity="0.4"/>
+            <circle cx="100" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="100" y1="-0" x2="200" y2="-0" stroke="blue" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="200" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="200" y1="-0" x2="300" y2="-0" stroke="blue" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="300" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="300" y1="-0" x2="400" y2="-0" stroke="blue" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="400" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="400" y1="-0" x2="500" y2="-0" stroke="blue" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="500" cy="-0" r="5" fill="blue" opacity="0.4"/>
+            <line x1="500" y1="-0" x2="600" y2="-0.9174311926605505" stroke="blue" stroke-width="3"
+                stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="600" cy="-0.9174311926605505" r="5" fill="blue" opacity="0.4"/>
+            <line x1="600" y1="-0.9174311926605505" x2="700" y2="-35.54502369668246" stroke="blue"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="700" cy="-35.54502369668246" r="5" fill="blue" opacity="0.4"/>
+            <line x1="700" y1="-35.54502369668246" x2="800" y2="-118.60465116279069" stroke="blue"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="800" cy="-118.60465116279069" r="5" fill="blue" opacity="0.4"/>
+            <line x1="800" y1="-118.60465116279069" x2="900" y2="-295.21276595744683" stroke="blue"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="900" cy="-295.21276595744683" r="5" fill="blue" opacity="0.4"/>
+            <line x1="900" y1="-295.21276595744683" x2="1000" y2="-369.93243243243245" stroke="blue"
+                stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
+            <circle cx="1000" cy="-369.93243243243245" r="5" fill="blue" opacity="0.4"/>
+        </g>
+    </g>
+</svg>
