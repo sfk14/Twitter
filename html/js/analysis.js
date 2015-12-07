@@ -15,7 +15,7 @@ function selection_made(){
     var retweetGraph = document.getElementById("retweetFavorite");
     if(this.checked){
         for(var i = 0; i < selections.length; i++){
-            selection[i].style.visibility = "visible";
+            selections[i].style.visibility = "visible";
         }
         if(this.value == "usage"){
             usageInfo.style.display = "block";
@@ -29,7 +29,9 @@ function selection_made(){
             usageGraph.style.display = "none";
         }
     }else{
-        selection.style.visibility = "hidden";
+        for(var i = 0; i < selections.length; i++){
+            selections[i].style.visibility = "hidden";
+        }
     }
 }
 window.onload = init;
