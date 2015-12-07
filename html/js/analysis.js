@@ -8,13 +8,15 @@ function init(){
     }
 }
 function selection_made(){
-    var selection = document.getElementById(this.value);
+    var selections = document.getElementsByClassName(this.value);
     var usageInfo = document.getElementById("usageDescription");
     var retweetInfo = document.getElementById("retweetFavoriteDescription");
     var usageGraph = document.getElementById("usage");
     var retweetGraph = document.getElementById("retweetFavorite");
     if(this.checked){
-        selection.style.visibility = "visible";
+        for(var i = 0; i < selections.length; i++){
+            selection[i].style.visibility = "visible";
+        }
         if(this.value == "usage"){
             usageInfo.style.display = "block";
             retweetInfo.style.display = "none";

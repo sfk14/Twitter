@@ -14,7 +14,7 @@
         <text x="800" y="20" text-anchor="middle">2013</text>
         <text x="900" y="20" text-anchor="middle">2014</text>
         <text x="1000" y="20" text-anchor="middle">2015</text>
-        <g id="mephistophelian">
+        <g class="mephistophelian">
             <circle cx="100" cy="-0" r="5" fill="red" opacity="0.4"/>
             <line x1="100" y1="-0" x2="200" y2="-0" stroke="red" stroke-width="3" opacity="0.4"/>
             <circle cx="200" cy="-0" r="5" fill="red" opacity="0.4"/>
@@ -68,7 +68,7 @@
                 stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
             <circle cx="1000" cy="-224.27184466019418" r="5" fill="red" opacity="0.4"/>
         </g>
-        <g id="schlumpy">
+        <g class="schlumpy">
             <circle cx="100" cy="-0" r="5" fill="blue" opacity="0.4"/>
             <line x1="100" y1="-0" x2="200" y2="-0" stroke="blue" stroke-width="3" opacity="0.4"/>
             <circle cx="200" cy="-0" r="5" fill="blue" opacity="0.4"/>

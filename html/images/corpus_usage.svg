@@ -30,7 +30,7 @@
         <text x="435" y="12" style="writing-mode: tb;">Q2 2015</text>
         <text x="460" y="12" style="writing-mode: tb;">Q3 2015</text>
         <text x="485" y="12" style="writing-mode: tb;">Q4 2015</text>
-        <g id="schlumpy">
+        <g class="schlumpy">
             <rect x="0" y="-104.97237569060773" height="104.97237569060773" width="20px" fill="blue"
                 opacity="0.4"/>
             <rect x="25" y="-110.49723756906077" height="110.49723756906077" width="20px"
@@ -70,7 +70,7 @@
                 opacity="0.4"/>
             <rect x="475" y="-0" height="0" width="20px" fill="blue" opacity="0.4"/>
         </g>
-        <g id="mephistophelian">
+        <g class="mephistophelian">
             <rect x="0" y="-40.05524861878453" height="40.05524861878453" width="20px" fill="red"
                 opacity="0.4"/>
             <rect x="25" y="-22.099447513812155" height="22.099447513812155" width="20px" fill="red"
