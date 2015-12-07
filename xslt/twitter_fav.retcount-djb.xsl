@@ -35,11 +35,11 @@
                         <xsl:value-of select="."/>
                     </text>
                     <!-- Draw a circle for the current year -->
-                    <circle cx="{$xPos}" cy="{$yPos}" r="5" fill="blue"/>
+                    <circle cx="{$xPos}" cy="{$yPos}" r="5" fill="blue" opacity="0.4"/>
                     <!-- If there's a following year, draw a line between current and following -->
                     <xsl:if test="not(position() eq last())">
                         <line x1="{$xPos}" y1="{$yPos}" x2="{$nextXPos}" y2="{$nextYPos}"
-                            stroke="blue" stroke-width="3"/>
+                            stroke="blue" stroke-width="3" opacity="0.4"/>
                     </xsl:if>
                 </xsl:for-each>
                 <xsl:for-each select="2006 to 2015">
@@ -64,11 +64,11 @@
                         <xsl:value-of select="."/>
                     </text>
                     <!-- Draw a circle for the current year -->
-                    <circle cx="{$xPos}" cy="{$yPos}" r="5" fill="blue"/>
+                    <circle cx="{$xPos}" cy="{$yPos}" r="5" fill="blue" opacity="0.4"/>
                     <!-- If there's a following year, draw a line between current and following -->
                     <xsl:if test="not(position() eq last())">
                         <line x1="{$xPos}" y1="{$yPos}" x2="{$nextXPos}" y2="{$nextYPos}"
-                            stroke="blue" stroke-width="3" stroke-dasharray="8 4"/>
+                            stroke="blue" stroke-width="3" stroke-dasharray="8 4" opacity="0.4"/>
                     </xsl:if>
                 </xsl:for-each>
             </g>
