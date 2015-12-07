@@ -11,8 +11,8 @@ function selection_made(){
     var selection = document.getElementById(this.value);
     var usageInfo = document.getElementById("usageDescription");
     var retweetInfo = document.getElementById("retweetFavoriteDescription");
-    var usageGraph = document.getElementById("usage");
-    var retweetGraph = document.getElementById("retweetFavorite");
+    var usageGraph = document.getElementByClassName("usage");
+    var retweetGraph = document.getElementsByClassName("retweetFavorite");
     if(this.checked){
         selection.style.visibility = "visible";
         if(this.value == "usage"){
