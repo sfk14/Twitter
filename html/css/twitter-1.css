@@ -94,6 +94,10 @@ svg {
     visibility:hidden;
 }
 
+#retweetFavorite, #usage {
+    
+}
+
 .commonsLicense {
     top:100px;
 }
