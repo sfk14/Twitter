@@ -8,11 +8,11 @@ function init(){
     }
 }
 function selection_made(){
-    var selection = document.getElementByClassName(this.value);
+    var selection = document.getElementById(this.value);
     var usageInfo = document.getElementById("usageDescription");
     var retweetInfo = document.getElementById("retweetFavoriteDescription");
-    var usageGraph = document.getElementByClassName("usage");
-    var retweetGraph = document.getElementsByClassName("retweetFavorite");
+    var usageGraph = document.getElementById("usage");
+    var retweetGraph = document.getElementById("retweetFavorite");
     if(this.checked){
         selection.style.visibility = "visible";
         if(this.value == "usage"){
