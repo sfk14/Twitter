@@ -42,6 +42,35 @@
                             stroke="blue" stroke-width="3"/>
                     </xsl:if>
                 </xsl:for-each>
+                <xsl:for-each select="2006 to 2015">
+                    <!-- find all tweets for the specified year -->
+                    <xsl:variable name="tweetYear" select="key('tweetByDate', string(.), $root)"
+                        as="element(tweet)*"/>
+                    <!-- find all tweets for the next year (will fail for 2015) -->
+                    <xsl:variable name="nextTweetYear"
+                        select="key('tweetByDate', string(. + 1), $root)" as="element(tweet)*"/>
+                    <!-- X and Y coordinates for tweets for year -->
+                    <xsl:variable name="xPos" select="position() * 100" as="xs:integer?"/>
+                    <xsl:variable name="yPos"
+                        select="concat('-', (avg($tweetYear/favorite_count), 0)[1] * 300)"
+                        as="xs:string"/>
+                    <!-- X and Y coordinates for tweets for next year -->
+                    <xsl:variable name="nextXPos" select="(position() + 1) * 100" as="xs:integer"/>
+                    <xsl:variable name="nextYPos"
+                        select="concat('-', (avg($nextTweetYear/favorite_count), 0)[1] * 300)"
+                        as="xs:string"/>
+                    <!-- Use the year to label the X axis -->
+                    <text x="{$xPos}" y="20" text-anchor="middle">
+                        <xsl:value-of select="."/>
+                    </text>
+                    <!-- Draw a circle for the current year -->
+                    <circle cx="{$xPos}" cy="{$yPos}" r="5" fill="blue"/>
+                    <!-- If there's a following year, draw a line between current and following -->
+                    <xsl:if test="not(position() eq last())">
+                        <line x1="{$xPos}" y1="{$yPos}" x2="{$nextXPos}" y2="{$nextYPos}"
+                            stroke="blue" stroke-width="3" stroke-dasharray="8 4"/>
+                    </xsl:if>
+                </xsl:for-each>
             </g>
         </svg>
     </xsl:template>
