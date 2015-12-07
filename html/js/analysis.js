@@ -8,7 +8,7 @@ function init(){
     }
 }
 function selection_made(){
-    var selection = document.getElementById(this.value);
+    var selection = document.getElementByClassName(this.value);
     var usageInfo = document.getElementById("usageDescription");
     var retweetInfo = document.getElementById("retweetFavoriteDescription");
     var usageGraph = document.getElementByClassName("usage");
