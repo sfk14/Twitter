@@ -18,13 +18,13 @@ function selection_made(){
         if(this.value == "usage"){
             usageInfo.style.display = "block";
             retweetInfo.style.display = "none";
-            usageGraph.style.visibility = "block";
-            retweetGraph.style.visibility = "none";
+            usageGraph.style.display = "block";
+            retweetGraph.style.display = "none";
         }else if(this.value == "retweetFavorite"){
             retweetInfo.style.display = "block";
             usageInfo.style.display = "none";
-            retweetGraph.style.visibility = "block";
-            usageGraph.style.visibility = "none";
+            retweetGraph.style.display = "block";
+            usageGraph.style.display = "none";
         }
     }else{
         selection.style.visibility = "hidden";
