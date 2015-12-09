@@ -27,7 +27,9 @@
             <div class="sideBar">
                 <p id="usageDescription">This histogram shows the popularity of the word over time.
                     The y axis gives the number of tweets containing the word, while the x axis
-                    represents time. Retweets are excluded. Neither word showed a large enough R-square value to demonstrate a strong correlation between popularity and the passage of time.</p>
+                    represents time. Retweets are excluded. Neither word showed a large enough
+                    R-square value to demonstrate a strong correlation between popularity and the
+                    passage of time.</p>
                 <p id="retweetFavoriteDescription">This graph shows the probability of the word's
                     being retweeted (dashed line) and favorited (solid line) over time. The y axis
                     gives the probability of each form of interaction, while the x axis represents
@@ -36,6 +38,12 @@
             <div class="chartArea">
                 <!--#include virtual="images/corpus_usage.svg"-->
                 <!--#include virtual="images/corpus_favorite_retweet.svg"-->
+            </div>
+            <div>
+                <h2>Gender Analysis</h2>
+                <p>These stacked bar charts show the percentage of tweets posted by each gender over time. The top, light blue bars show the percentage of tweets posted by women, the dark blue bars at the bottom belong to the men, and the gray bars in the middle represent tweets posted by users of unknown gender. See the <a href="methodology.xhtml">methodology</a> page for an explanation of our gender-matching system.</p>
+                <div><h3>Schlumpy</h3><!--#include virtual="images/schlumpy_genders.svg"--></div>
+                <div><h3>Mephistophelian</h3><!--#include virtual="images/mephistophelian_genders.svg"--></div>
             </div>
         </div>
         <!--#include virtual="inc/commonsLicense.html" -->
