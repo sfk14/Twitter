@@ -141,3 +141,7 @@ li.nav a:hover {
     color: blue;
     border-bottom: 5px solid blue;
 }
+
+table, th, td {
+    border:1px solid;
+}
