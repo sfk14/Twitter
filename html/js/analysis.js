@@ -4,6 +4,8 @@ function init(){
         checks[i].addEventListener('change', selection_made, false);
         if(checks[i].value == "usage"){
             checks[i].checked = "true";
+        } else if (checks[i].type == "checkbox"){
+            checks[i].checked = "";
         }
     }
 }
