@@ -4,17 +4,21 @@ function init(){
         checks[i].addEventListener('change', selection_made, false);
         if(checks[i].value == "usage"){
             checks[i].checked = "true";
+        } else if (checks[i].type == "checkbox"){
+            checks[i].checked = "";
         }
     }
 }
 function selection_made(){
-    var selection = document.getElementById(this.value);
+    var selections = document.getElementsByClassName(this.value);
     var usageInfo = document.getElementById("usageDescription");
     var retweetInfo = document.getElementById("retweetFavoriteDescription");
     var usageGraph = document.getElementById("usage");
     var retweetGraph = document.getElementById("retweetFavorite");
     if(this.checked){
-        selection.style.visibility = "visible";
+        for(var i = 0; i < selections.length; i++){
+            selections[i].style.visibility = "visible";
+        }
         if(this.value == "usage"){
             usageInfo.style.display = "block";
             retweetInfo.style.display = "none";
@@ -27,7 +31,9 @@ function selection_made(){
             usageGraph.style.display = "none";
         }
     }else{
-        selection.style.visibility = "hidden";
+        for(var i = 0; i < selections.length; i++){
+            selections[i].style.visibility = "hidden";
+        }
     }
 }
 window.onload = init;

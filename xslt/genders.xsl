@@ -27,12 +27,30 @@
         <!-- Try to get the user's first name -->
         <xsl:variable name="name" select="tokenize(./user/name, ' ')[1]"/>
         <tweet>
+        <!-- Try to match the name to known male and female names -->
         <xsl:choose>
             <xsl:when test="$name = $maleNames and not($name = $femaleNames)">
                     <gender>male</gender>
             </xsl:when>
             <xsl:when test="$name = $femaleNames and not($name = $maleNames)">
                     <gender>female</gender>
+            </xsl:when>
+            
+            <!-- If it is in both lists, we go with the gender in which the name is more common -->
+            <xsl:when test="$name = $maleNames and $name = $femaleNames">
+                
+                <xsl:variable name="maleRank" select="count($maleNames[. = $name]/preceding-sibling::*)"/>
+                <xsl:variable name="femaleRank" select="count($femaleNames[. = $name]/preceding-sibling::*)"/>
+                
+                <xsl:choose>
+                    <xsl:when test="$maleRank &lt; $femaleRank">
+                        <gender>male</gender>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <gender>female</gender>
+                    </xsl:otherwise>
+                </xsl:choose>
+                
             </xsl:when>
             <xsl:otherwise>
                     <gender>unknown</gender>
